@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Reviews</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+      }
+
+      .header {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+      }
+
+      .card {
+        width: 300px;
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+      }
+
+      .card-content {
+        padding: 15px;
+      }
+
+      .card-content h2 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .card-content p {
+        color: #666;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+
+      .rating {
+        color: #f39c12;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Product Reviews</h1>
+    </div>
+
+    <div class="body"></div>
+
+    <script src="08_apiProject.js"></script>
+  </body>
+</html>
