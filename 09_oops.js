@@ -188,3 +188,5 @@ coderProfile.submitCode(); // Output: 🚀 prashant_cse just pushed a solution! 
 // STATIC
 // However, when you prefix a property or method with the static keyword, you tell JavaScript:
 //  "This belongs strictly to the class blueprint itself. Do not give this to the child instances."
+
+// not called on insta
